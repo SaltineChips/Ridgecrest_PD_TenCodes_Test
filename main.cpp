@@ -128,7 +128,7 @@ if (Respond == "yes"){
 	Question q72;
 	Question q73;
 	Question q74;
-	Question q75;
+	//Question q75;
 
 	q1.setValues ("What is the code for 'Poor Reception'?",
 				"10-1",
@@ -620,34 +620,41 @@ if (Respond == "yes"){
 				"337",
 				3,
 				1.33);
-	q72.setValues ("What is the special code for 'Corporal punishment of child'?",
+	q71.setValues ("What is the special code for 'Corporal punishment of child'?",
 				"273D",
 				"162",
 				"745",
 				"273",
 				1,
 				1.33);
-	q73.setValues ("What is the special code for 'Arson'?",
+	q72.setValues ("What is the special code for 'Arson'?",
 				"452",
 				"451",
 				"450",
 				"449",
 				2,
 				1.33);
-	q74.setValues ("What is the special code for 'Grand Theft'?",
+	q73.setValues ("What is the special code for 'Grand Theft'?",
 				"444",
 				"444",
 				"477",
 				"487",
 				4,
 				1.33);
-	q75.setValues ("What is the special code for 'Lerd or lascivious conduct'?",
+	q74.setValues ("What is the special code for 'Lewd or lascivious conduct'?",
 				"222",
 				"238",
 				"288",
 				"283",
 				3,
 				1.33);
+	/*q75.setValues ("What is the special code for 'Lerd or lascivious conduct'?",
+				"222",
+				"238",
+				"288",
+				"283",
+				3,
+				1.33); */
 q1.askQuestion();
 q2.askQuestion();
 q3.askQuestion();
@@ -722,7 +729,7 @@ q71.askQuestion();
 q72.askQuestion();
 q73.askQuestion();
 q74.askQuestion();
-q75.askQuestion();
+//q75.askQuestion();
  
 cout << "Your Total Score is " << Total << " out of 100" << endl;
  
